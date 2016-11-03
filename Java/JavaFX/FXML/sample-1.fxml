@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="New" />
+            <MenuItem mnemonicParsing="false" text="Open…" />
+            <Menu mnemonicParsing="false" text="Open Recent" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Close" />
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Revert" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Preferences…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Undo" />
+            <MenuItem mnemonicParsing="false" text="Redo" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Cut" />
+            <MenuItem mnemonicParsing="false" text="Copy" />
+            <MenuItem mnemonicParsing="false" text="Paste" />
+            <MenuItem mnemonicParsing="false" text="Delete" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Select All" />
+            <MenuItem mnemonicParsing="false" text="Unselect All" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" text="Drag components from Library here…" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <Accordion layoutX="3.0" layoutY="77.0" prefHeight="276.0" prefWidth="633.0">
+              <panes>
+                <TitledPane animated="false" prefHeight="242.0" prefWidth="518.0" text="New E-mail" textFill="#2d18c7">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <VBox alignment="CENTER_LEFT" layoutX="-3.0" layoutY="-10.0" prefHeight="200.0" prefWidth="518.0" AnchorPane.bottomAnchor="-20.400000000000006" AnchorPane.leftAnchor="-13.399999999999977" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="-10.0">
+                                 <children>
+                                    <DatePicker promptText="Select a date" />
+                                    <TextField prefHeight="25.0" prefWidth="258.0" promptText="Title" />
+                                    <TextArea prefHeight="200.0" prefWidth="200.0" promptText="Your content goes here!" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                 </padding>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane animated="false" text="My List of E-mails">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ListView layoutX="-6.0" layoutY="-34.0" prefHeight="200.0" prefWidth="518.0" AnchorPane.bottomAnchor="3.5999999999999943" AnchorPane.leftAnchor="-6.0" AnchorPane.rightAnchor="-6.399999999999977" AnchorPane.topAnchor="-34.0">
+                                 <padding>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                 </padding>
+                                 <opaqueInsets>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                                 </opaqueInsets>
+                              </ListView>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </TitledPane>
+              </panes>
+            </Accordion>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="16.0" prefHeight="38.0" prefWidth="633.0" text="My Accordion">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
