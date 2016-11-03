@@ -1,0 +1,42 @@
+USEFUL LINKS to LAMBDA expressions in JAVA8:
+
+
+		1. http://javarevisited.blogspot.com/2014/02/10-example-of-lambda-expressions-in-java8.html
+
+		2. http://viralpatel.net/blogs/lambda-expressions-java-tutorial/
+
+		3. https://www.tutorialspoint.com/java8/java8_lambda_expressions.htm
+
+		4. http://www.baeldung.com/java-8-lambda-expressions-tips
+
+		5. http://www.developer.com/java/start-using-java-lambda-expressions.html
+
+		6. https://www.youtube.com/watch?v=zolbIZS4SRQ
+
+		7. https://www.youtube.com/watch?v=ZNdc4-yFTeA
+
+
+
+
+
+	USSD Apps: 
+
+		1. Annuaire:
+			- Search for an existing MTN-AirTel-Tigo number
+				* Filter by: 
+					-- NID
+					-- Names
+					-- Address (Cell, Sector, District)
+
+		2. True Caller ID:
+			- How to register by yourself
+			- And make yourself findable
+			- Incentives
+
+		3. Transfer (me2u) drinks or food instead of money (byakoreshwa nko mu kabari, muri resto cg muri boutique cg supermarkets)
+			- Akabari cg Resto kakaba gafite code
+			- Inzoga yose ikaba ifite code
+			- Umuntu akagura quantity ashaka kubika, akaba yajya ahaho abandi igihe bibaye ngombwa, cg akabasengerera.
+
+		4. Transcontinental business (Transport of Goods: Kenya, Tanzania, Rwanda, Burundi, Uganda, Congo...)
+			- See example of Cote d'Ivoire.
