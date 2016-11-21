@@ -1,11 +1,12 @@
-1. Build an App#1 that holds the names (dummy DB with String ArrayList) and displays it on a Web page
+# Web-Services
+1. Build an *App#1* that holds the names (dummy DB with String ArrayList) and displays it on a Web page
   + LINKS: 
     - https://www.mkyong.com/spring-mvc/spring-mvc-and-list-example/
 
-  + Use Spring MVC
+  + Use Spring MVC# Web-Services
   + Java J2EE
 
-1. Build an App#2 that can input data into the App#1 using Web-Service:
+1. Build an *App#2* that can input data into the *App#1* using Web-Service:
   #### LINKS: 
     - http://www.programming-free.com/2014/01/spring-mvc-40-restful-web-services.html
     - https://www.tutorialspoint.com/restful/restful_quick_guide.htm
